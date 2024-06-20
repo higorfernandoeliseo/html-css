@@ -150,7 +150,25 @@ article.links {
     color: #2f363d;
 }
 
-p.shortlink {
+.menu_box {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+ul.menu_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.menu_link li a {
+    margin-right: 23px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #3c4b62;
+}
+
+.shortlink {
     font-size: 14px;
     color: orange;
     padding:2px 0px 5px 0px;
