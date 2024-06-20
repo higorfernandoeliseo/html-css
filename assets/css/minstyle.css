@@ -159,4 +159,5 @@ p.shortlink {
 
 .clicks_cnt {
     padding:12px 0px 2px 0px; 
+    cursor: pointer;
 }
