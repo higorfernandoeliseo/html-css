@@ -166,6 +166,7 @@ ul.menu_link li a {
     font-size: 0.9rem;
     text-decoration: none;
     color: #3c4b62;
+    border: 1px solid #f2f2f2;
 }
 
 .shortlink {
