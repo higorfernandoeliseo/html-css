@@ -159,6 +159,7 @@ article.links {
 ul.menu_link {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 ul.menu_link li a {
