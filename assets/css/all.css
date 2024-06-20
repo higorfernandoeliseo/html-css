@@ -1,0 +1,22 @@
+body {
+    font-family: aral, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type="text"].urlbox {
+    width: 300px;
+}

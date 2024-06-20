@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="assets/css/minstyle.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            let button = document.querySelector('#btn-optionsurl');
+            let options = document.querySelector('#options-url');
+
+            button.addEventListener('click', ()=>{
+                options.classList.toggle('hide');
+            });
+        });   
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="assets/images/isgdlogo.jpg" />
+        <form id="idForm" method="post"></form>
+            <div id="shortenform">
+                <input type="text" name="urlshort" id="urlshort" size="55" autocomplete="off"/>
+            </div>
+                <button id="btn-optionsurl">Outras opções/URL personalizado ⚙</button>
+            <div id="options-url" class="hide">
+                <label>https://bit.ly/ </label>
+                <input type="text" name="nickname" id="nickname" autocomplete="off">
+            </div>
+            <input type="submit" name="shorten" id="shrtbtn" value=" Encurtar! ">
+        </form>
+    </div>
+</body>
+</html>
