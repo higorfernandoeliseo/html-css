@@ -167,6 +167,8 @@ ul.menu_link li a {
     text-decoration: none;
     color: #3c4b62;
     border: 1px solid #f2f2f2;
+    padding: 4px;
+    border-radius: 3px;
 }
 
 .shortlink {
