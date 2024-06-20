@@ -88,7 +88,7 @@
     font-size: 13px;
     text-decoration: none;
     color: black;
-    font-weight: normal;
+    font-weight: 700;
     margin:0 auto;
     border: none;
     background-color: white;
@@ -139,6 +139,7 @@ article.links {
     font-size: 12px;
     font-weight: bold;
     padding:2px 0px 2px 0px;
+    color: #677483;
 }
 /* #f6f8f9 */
 
@@ -150,8 +151,12 @@ article.links {
 }
 
 p.shortlink {
-    font-size: 15px;
+    font-size: 14px;
     color: orange;
-    padding:2px 0px 2px 0px;
-    font-weight: 300;
+    padding:2px 0px 5px 0px;
+    font-weight: 600;
+}
+
+.clicks_cnt {
+    padding:12px 0px 2px 0px; 
 }
