@@ -120,6 +120,12 @@
     display: none;
 }
 
+.title_box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #3c4043;
+}
+
 section{
     margin-top: 90px;
 }
