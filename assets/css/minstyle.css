@@ -159,12 +159,14 @@ article.links {
 .menu-box  {
     display: flex;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .menu-box ul {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .menu-box ul li a {
