@@ -124,15 +124,12 @@
     font-size: 13px;
     font-weight: 600;
     color: #3c4043;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
 section{
     margin-top: 90px;
-}
-
-section caption {
-    margin-bottom: 6px;
-    text-align: left;
 }
 
 article {
