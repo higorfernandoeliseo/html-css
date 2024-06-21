@@ -156,8 +156,9 @@ article.links {
     margin-top: 10px;
 } */
 
-ul.menu_link {
+ul.menu-box {
     list-style: none;
+    float: left;
 }
 
 ul.menu_link li {
@@ -169,7 +170,7 @@ ul.menu_link li {
 ul.menu_link li a {
     display: inline-block;
     padding: 3px;
-    font-size: 13px;
+    font-size: 12px;
     text-decoration: none;
     border-radius: 3px;
 }
