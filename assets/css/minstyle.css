@@ -181,13 +181,19 @@ article.links {
     margin: 3px;
 }
 
+.menu-box ul li span {
+    font-size: 11px;
+    font-weight: normal;
+    color: #ee6123;
+    margin-left: 4px;
+}
 
-.shortlink {
+/* .shortlink {
     font-size: 14px;
     color: orange;
     padding:2px 0px 5px 0px;
     font-weight: 600;
-}
+} */
 
 .clicks_cnt {
     padding:12px 0px 2px 0px; 
