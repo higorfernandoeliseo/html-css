@@ -124,12 +124,15 @@
     font-size: 13px;
     font-weight: 600;
     color: #3c4043;
-    float: left;
-    width: 100%;
 }
 
 section{
     margin-top: 90px;
+}
+
+#history_title {
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 article {
