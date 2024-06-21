@@ -132,7 +132,7 @@ section{
 
 section caption {
     margin-bottom: 6px;
-    float: left;
+    text-align: left;
 }
 
 article {
