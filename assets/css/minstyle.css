@@ -130,6 +130,11 @@ section{
     margin-top: 90px;
 }
 
+section caption {
+    margin-bottom: 6px;
+    float: left;
+}
+
 article {
     text-align: left;
 }
