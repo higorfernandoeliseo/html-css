@@ -156,24 +156,24 @@ article.links {
     margin-top: 10px;
 } */
 
-ul.menu-box {
-    list-style: none;
-    float: left;
+.menu-box  {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
 }
 
-ul.menu_link li {
-    float: left;
-    display: inline;
-    width: 150px;
+.menu-box ul {
+    display: flex;
+    justify-content: space-between;
 }
 
-ul.menu_link li a {
-    display: inline-block;
-    padding: 3px;
-    font-size: 12px;
+.menu-box ul li a {
+    margin-right: 23px;
+    font-size: 0.9rem;
     text-decoration: none;
-    border-radius: 3px;
+    color: #ee6123;
 }
+
 
 .shortlink {
     font-size: 14px;
