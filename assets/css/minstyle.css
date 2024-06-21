@@ -124,8 +124,7 @@
     font-size: 13px;
     font-weight: 600;
     color: #3c4043;
-    text-align: left;
-    margin-bottom: 5px;
+    float: left;
 }
 
 section{
