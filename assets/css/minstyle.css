@@ -186,6 +186,7 @@ article.links {
     border-radius: 4px;
     font-weight: 600;
     margin: 0px 3px;
+    padding-left: 5px;
 }
 
 .menu-box ul li span {
