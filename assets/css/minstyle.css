@@ -171,10 +171,11 @@ article.links {
 
 .menu-box ul li a {
     margin-right: 23px;
-    font-size: 13px;
+    font-size: 12px;
+    padding: 2px;
     text-decoration: none;
     color: #ee6123;
-    border: 2px solid #ee6123;
+    border: 1px solid #ee6123;
     border-radius: 4px;
 }
 
