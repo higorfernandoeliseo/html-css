@@ -166,6 +166,7 @@ ul.menu_link {
 ul.menu_link li {
     float: left;
     display: inline;
+    width: 150px;
 }
 
 ul.menu_link li a {
