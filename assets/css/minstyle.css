@@ -150,6 +150,12 @@ article.links {
     color: #2f363d;
 }
 
+.links a.origin-link {
+    text-decoration: none;
+    color: #494f55;
+    font-size: 13px;
+}
+
 /* .menu_box {
     display: flex;
     width: 50vw;
