@@ -163,15 +163,17 @@ ul.menu_link {
     list-style: none;
 }
 
-ul.menu_link li a {
-    margin-right: 23px;
-    font-size: 0.9rem;
-    text-decoration: none;
-    color: #3c4b62;
-    border: 2px solid #e0e0e0;
-    padding: 4px;
-    border-radius: 3px;
+ul.menu_link li {
     float: left;
+    display: inline;
+}
+
+ul.menu_link li a {
+    display: inline-block;
+    padding: 3px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
 }
 
 .shortlink {
