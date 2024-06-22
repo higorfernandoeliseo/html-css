@@ -13,9 +13,21 @@
             let button = document.querySelector('#btn-optionsurl');
             let options = document.querySelector('#options-url');
 
+            let copyItem = document.querySelector("#copytoClipboard")
+
             button.addEventListener('click', ()=>{
                 options.classList.toggle('hide');
             });
+
+            copyItem.addEventListener('click', () =>{
+
+                let valueLink = document.querySelector("#copytoClipboard").getAttribute('value');
+
+                alert(valueLink);
+                
+            });
+
+
         });   
     </script>
 </head>
@@ -45,7 +57,7 @@
                     <a class="origin-link" href="#">https://www.mozilla.org/pt-BR/firefox/new/</a>
                     <div class="menu-box">
                         <ul>
-                            <li><a href="#">COPIAR</a></li>
+                            <li><a id="copytoClipboard" value="text" href="#">COPIAR</a></li>
                             <li><span>bit.ly/37o1wlz</span></li>
                         </ul>
                     </div>    
