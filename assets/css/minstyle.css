@@ -157,12 +157,16 @@ article.links {
 }
 /* #f6f8f9 */
 
+.links h2 {
+	display: block;
+	width: 100%;
+}
+
 .links h2 a {
     font-size: 16px;
     padding:1px 0px 1px 0px;
     text-decoration: none;
     color: #2f363d;
-	display: flex;
 }
 
 .links a.origin-link {
